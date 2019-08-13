@@ -6,4 +6,6 @@ import (
 
 func main() {
 	entity.ViewCustomers()
+	entity.AddCustomer(1, "rendy", "muhardianto", "jakarta", "malang")
+	entity.ViewCustomers()
 }
